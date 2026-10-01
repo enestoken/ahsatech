@@ -1,0 +1,54 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 733 >>
+stream
+BT
+/F1 18 Tf
+50 750 Td
+(AHSATECH ENDUSTRIYEL SISTEMLER - TEKNIK VERI FORMU) Tj
+0 -24 Td
+/F1 14 Tf
+(AhsaEdge AI-Box 100 Uc Yapay Zeka Islem Unitesi) Tj
+0 -18 Td
+/F1 11 Tf
+(Model Kodu: AHSA-AI-100-BOX) Tj
+0 -25 Td
+(TEKNIK SPESIFIKASYONLAR:) Tj
+0 -16 Td (- AI Hizlandirici: 40 TOPS INT8 NPU Cikarim Gucu) Tj
+0 -16 Td (- Kamera Girisleri: 2x IEEE 802.3at PoE+ Gigabit Port) Tj
+0 -16 Td (- Goruntu Cikisi: 1x HDMI 2.0 (4K 60fps)) Tj
+0 -16 Td (- Kasa Mimarisi: Fansiz Ekstruzyon Aluminyum Govde) Tj
+0 -16 Td (- Calisma Sicakligi: -20C ile +70C Titresim Dayanimi) Tj
+0 -35 Td
+/F1 9 Tf
+(AhsaTech Marmara Ar-Ge Merkezi - ISO 9001:2015 & CE Sertifikali Uretim) Tj
+0 -14 Td
+(Belge No: DS-AHSAAI100BOX-2026 - Guvenli Endustriyel Donanim) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000244 00000 n 
+0000000320 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+395
+%%EOF

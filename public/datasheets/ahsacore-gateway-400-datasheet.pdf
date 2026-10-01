@@ -1,0 +1,55 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 807 >>
+stream
+BT
+/F1 18 Tf
+50 750 Td
+(AHSATECH ENDUSTRIYEL SISTEMLER - TEKNIK VERI FORMU) Tj
+0 -24 Td
+/F1 14 Tf
+(AhsaCore-Gateway 400 DIN-Ray Endustriyel Ag Gecidi) Tj
+0 -18 Td
+/F1 11 Tf
+(Model Kodu: AHSA-GW-400-DIN) Tj
+0 -25 Td
+(TEKNIK SPESIFIKASYONLAR:) Tj
+0 -16 Td (- Islemci: Quad-Core ARM Cortex-A53 @ 1.5 GHz) Tj
+0 -16 Td (- Bellek: 2 GB LPDDR4 RAM + 16 GB eMMC 5.1) Tj
+0 -16 Td (- Ag Arayuzleri: 2x GbE Ethernet, 4G LTE Cat-4 / 5G Ready) Tj
+0 -16 Td (- Seri Portlar: 2x Izole RS-485 Modbus + 1x CAN 2.0B) Tj
+0 -16 Td (- Calisma Sicakligi: -40C ile +85C Endustriyel Seviye) Tj
+0 -16 Td (- Guvenlik: TPM 2.0 Kriptografik Guvenlik Donanimi) Tj
+0 -35 Td
+/F1 9 Tf
+(AhsaTech Marmara Ar-Ge Merkezi - ISO 9001:2015 & CE Sertifikali Uretim) Tj
+0 -14 Td
+(Belge No: DS-AHSAGW400DIN-2026 - Guvenli Endustriyel Donanim) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000244 00000 n 
+0000000320 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+395
+%%EOF

@@ -1,0 +1,3 @@
+# Preserve binary assets byte-for-byte across Windows and Linux checkouts.
+*.pdf binary
+*.zip binary

@@ -1,0 +1,216 @@
+/* AhsaTech admin visual system */
+:root {
+  --theme-elevation-0: #ffffff;
+  --theme-elevation-50: #f5f7f6;
+  --theme-elevation-100: #edf1ef;
+  --theme-elevation-150: #e1e7e4;
+  --theme-elevation-200: #d7dfdb;
+  --theme-elevation-800: #25312c;
+  --theme-elevation-900: #17211d;
+  --theme-elevation-1000: #0f1714;
+  --theme-success-500: #006973;
+  --theme-error-500: #b42318;
+}
+
+body {
+  font-family: Inter, "Segoe UI", sans-serif;
+}
+
+.nav {
+  border-right: 1px solid var(--theme-elevation-150);
+  background: #fbfcfb;
+}
+
+.nav__wrap {
+  padding-inline: 18px;
+}
+
+.nav-group__toggle {
+  color: #67716c;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+
+.nav a[id^="nav-"] {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 38px;
+  margin: 2px 0;
+  padding: 7px 9px 7px 38px;
+  border-radius: 7px;
+  color: #25312c;
+  font-weight: 500;
+  transition: background-color .18s ease, color .18s ease;
+}
+
+.nav a[id^="nav-"]::before {
+  position: absolute;
+  left: 10px;
+  display: grid;
+  width: 20px;
+  height: 20px;
+  place-items: center;
+  color: #006973;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.nav a[id^="nav-"]:hover,
+.nav a[id^="nav-"].active {
+  background: #e8efec;
+  color: #003322;
+}
+
+#nav-pages::before { content: "▤"; }
+#nav-projects::before { content: "◆"; }
+#nav-products::before { content: "▣"; }
+#nav-rfq-submissions::before { content: "↧"; }
+#nav-media::before { content: "▧"; }
+#nav-users::before { content: "●"; }
+#nav-global-corporate::before { content: "⌂"; }
+#nav-global-site-settings::before { content: "⚙"; }
+
+.ahsa-admin-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #003322;
+}
+
+.ahsa-brand-mark {
+  display: block;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 auto;
+}
+
+.ahsa-brand-mark--compact {
+  width: 18px;
+  height: 18px;
+  max-width: 18px;
+  flex-basis: 18px;
+  overflow: hidden;
+}
+
+.step-nav .ahsa-brand-mark--compact,
+.app-header .ahsa-brand-mark--compact {
+  display: block;
+  width: 18px !important;
+  height: 18px !important;
+  margin: 0;
+}
+
+.ahsa-admin-logo strong,
+.ahsa-admin-logo small {
+  display: block;
+}
+
+.ahsa-admin-logo strong {
+  font-size: 20px;
+  letter-spacing: -.02em;
+}
+
+.ahsa-admin-logo small {
+  margin-top: 2px;
+  color: #67716c;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.ahsa-admin-welcome {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(320px, .75fr);
+  gap: 40px;
+  align-items: end;
+  margin-bottom: 42px;
+  padding: 34px 36px;
+  border-left: 6px solid #006973;
+  background: #003322;
+  color: white;
+}
+
+.ahsa-admin-welcome__eyebrow {
+  color: #8bd8c0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.ahsa-admin-welcome h1 {
+  max-width: 720px;
+  margin: 10px 0 8px;
+  color: white;
+  font-size: clamp(28px, 3vw, 42px);
+  line-height: 1.12;
+  letter-spacing: -.035em;
+}
+
+.ahsa-admin-welcome p {
+  margin: 0;
+  color: #cbd9d3;
+  font-size: 15px;
+}
+
+.ahsa-admin-welcome nav {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.ahsa-admin-welcome a {
+  padding: 11px 12px;
+  border: 1px solid rgba(255,255,255,.22);
+  border-radius: 6px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.ahsa-admin-welcome a:hover {
+  background: white;
+  color: #003322;
+}
+
+.dashboard .card {
+  border-color: var(--theme-elevation-150);
+  border-radius: 8px;
+  background: white;
+  box-shadow: none;
+}
+
+.dashboard .card:hover {
+  border-color: #8aa99b;
+  box-shadow: 0 8px 20px rgba(15, 36, 27, .07);
+}
+
+.dashboard h2 {
+  color: #17211d;
+  font-size: 22px;
+  letter-spacing: -.02em;
+}
+
+@media (max-width: 900px) {
+  .ahsa-admin-welcome {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 28px;
+  }
+}
+
+@media (max-width: 520px) {
+  .ahsa-admin-welcome {
+    margin-inline: -16px;
+    padding: 24px 20px;
+  }
+
+  .ahsa-admin-welcome nav {
+    grid-template-columns: 1fr;
+  }
+}

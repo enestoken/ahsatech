@@ -1,0 +1,33 @@
+import type { Page } from '@playwright/test'
+import { expect } from '@playwright/test'
+
+export interface LoginOptions {
+  page: Page
+  serverURL?: string
+  user: {
+    email: string
+    password: string
+  }
+}
+
+/**
+ * Logs the user into the admin panel via the login page.
+ */
+export async function login({
+  page,
+  serverURL = process.env.E2E_BASE_URL || 'http://localhost:3000',
+  user,
+}: LoginOptions): Promise<void> {
+  await page.goto(`${serverURL}/admin/login`)
+
+  await page.fill('#field-email', user.email)
+  await page.fill('#field-password', user.password)
+  await page.click('button[type="submit"]')
+
+  await page.waitForURL(`${serverURL}/admin`)
+
+  const dashboardArtifact = page.getByRole('heading', {
+    name: 'İçerik ve başvuruları tek yerden yönetin',
+  })
+  await expect(dashboardArtifact).toBeVisible()
+}

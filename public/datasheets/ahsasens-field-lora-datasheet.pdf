@@ -1,0 +1,54 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 746 >>
+stream
+BT
+/F1 18 Tf
+50 750 Td
+(AHSATECH ENDUSTRIYEL SISTEMLER - TEKNIK VERI FORMU) Tj
+0 -24 Td
+/F1 14 Tf
+(AhsaSens-Field LoRa Ultra Dusuk Guc Kablosuz Sensor Dugumu) Tj
+0 -18 Td
+/F1 11 Tf
+(Model Kodu: AHSA-NODE-LORA) Tj
+0 -25 Td
+(TEKNIK SPESIFIKASYONLAR:) Tj
+0 -16 Td (- Radyo Frekansi: LoRaWAN 868 MHz / 915 MHz Class A) Tj
+0 -16 Td (- Pil Omru: 10 Yil Degistirilebilir Li-SOCl2 8500 mAh) Tj
+0 -16 Td (- Uyku Akimi: 1.8 uA Ultra Dusuk Akim Modu) Tj
+0 -16 Td (- Koruma Sinifi: IP68 Su Gecirmez Polikarbonat Govde) Tj
+0 -16 Td (- Arayuzler: 2x 0-10V / 4-20mA 16-Bit Hassas ADC) Tj
+0 -35 Td
+/F1 9 Tf
+(AhsaTech Marmara Ar-Ge Merkezi - ISO 9001:2015 & CE Sertifikali Uretim) Tj
+0 -14 Td
+(Belge No: DS-AHSANODELORA-2026 - Guvenli Endustriyel Donanim) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000244 00000 n 
+0000000320 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+395
+%%EOF
